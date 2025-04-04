@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  arq-hex-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: 453486992147.dkr.ecr.us-east-1.amazonaws.com/my-image-course-aws
+    container_name: app-nest
+    restart: unless-stopped
+    # adecuación puerto
+    ports:
+      - 80:80

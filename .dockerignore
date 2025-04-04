@@ -1,0 +1,7 @@
+# Definiciones de ignoración de cara a la creación de la imagen
+dist
+node_modules
+requests
+test
+tests
+coverage
