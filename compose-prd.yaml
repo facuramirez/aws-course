@@ -8,5 +8,6 @@ services:
     container_name: app-nest
     restart: unless-stopped
     # adecuación puerto
+    # otro comentario
     ports:
       - 80:80
